@@ -1,0 +1,16 @@
+Package: evar
+Type: Package
+Title: Estimating  and Testing for (Hight-dimensional) Expectile Regression Models
+Version: 1.0.1
+Author: Xiangyong Tan [aut],
+        Xu Liu [aut,cre]
+Maintainer: Xu Liu <liu.xu@sufe.edu.cn>
+Description: Estimating for Expectile Regression Models and Testing for High-dimensional Expectile Regression Models 
+License: GPL (>= 2)
+Depends: R (>= 3.2.0)
+LazyData: true
+NeedsCompilation: yes
+Repository: CRAN
+URL: https://github.com/xliusufe/evar
+Encoding: UTF-8
+Packaged: 2020-08-26 07:41:52 UTC; Xu Liu

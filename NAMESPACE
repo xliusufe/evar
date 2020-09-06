@@ -1,0 +1,4 @@
+importFrom("stats", "pnorm")
+useDynLib(evar)
+exportPattern("^[[:alpha:]]+")
+export(evar.est, evar.test)
