@@ -1,5 +1,5 @@
 # evar
-R package "evar" Estimating for Expectile Regression Models and Testing for High-dimensional Expectile Regression Models.
+R package "evar" estimating coefficients for expectile regression models and testing coefficients as a whole for high-dimensional expectile regression models.
 
 # Installation
 

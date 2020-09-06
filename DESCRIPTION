@@ -5,7 +5,7 @@ Version: 1.0.1
 Author: Xiangyong Tan [aut],
         Xu Liu [aut,cre]
 Maintainer: Xu Liu <liu.xu@sufe.edu.cn>
-Description: Estimating for Expectile Regression Models and Testing for High-dimensional Expectile Regression Models 
+Description: Estimating the Coefficients for Expectile Regression Models and Testing Coefficients as a Whole for High-dimensional Expectile Regression Models 
 License: GPL (>= 2)
 Depends: R (>= 3.2.0)
 LazyData: true
