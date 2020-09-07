@@ -25,7 +25,7 @@
 }
 
 \value{
-  \item{beta}{Estimator of the coefficintss corresponding to the first \eqn{q} covariates.}
+  \item{beta}{Estimator of the coefficints.}
 }
 
 

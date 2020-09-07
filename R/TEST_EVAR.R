@@ -19,4 +19,6 @@ evar.test <- function(y,x=NULL,tau=0.5,q=0,eps=1e-6,max_step=100){
         fit <- .Call("TEST_EVAR_", x1, x[,(q+1):p], y, rep(0,q+1), as.integer( c(n, p-q, q+1, max_step)), c(tau,eps))
     }
     fit$pval = pnorm(fit$Tn,lower.tail = F)
+    
+    fit
 }

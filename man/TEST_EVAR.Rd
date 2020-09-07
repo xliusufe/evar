@@ -28,7 +28,7 @@
 
 \value{
   \item{Tn}{Value of test statistic.}
-  \item{beta}{Estimator of the coefficintss corresponding to the first \eqn{q} covariates.}
+  \item{beta}{Estimator of the coefficints corresponding to the first \eqn{q} covariates.}
   \item{pval}{P-value.}
 }
 
