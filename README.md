@@ -13,24 +13,25 @@ R package "evar" estimating coefficients for expectile regression models and tes
 
 # Example
     library(evar)
-
+    
+    tau <- 0.4
     n   <- 150
     p   <- 5
     beta <- c(1, 2, -1, -2, 3)
     set.seed(2)
     x <- matrix(rnorm(n*p),n,p)
     y <- x%*%beta +  rnorm(n)
-    fit <- evar.est(y, x, q)
+    fit <- evar.est(y, x, tau, q)
 
 
-
+    tau <- 0.4
     n   <- 150
     p   <- 450
     q   <- 3
     set.seed(2)
     x <- matrix(rnorm(n*p),n,p)
     y <- rnorm(n)
-    fit <- evar.test(y, x, q)    
+    fit <- evar.test(y, x, tau, q)    
     
 # References
 
